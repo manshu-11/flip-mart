@@ -81,11 +81,12 @@ const OrderSummary = () => {
                   </td>
                   <td className="product-total-amount">
                     <Currency status={currencyStatus} />
-                    <span></span>
-                    <CurrencyExchange
-                      status={currencyStatus}
-                      rate={totalAmount}
-                    />
+                    <span>
+                      <CurrencyExchange
+                        status={currencyStatus}
+                        rate={totalAmount}
+                      />
+                    </span>
                   </td>
                 </tr>
               </tbody>
