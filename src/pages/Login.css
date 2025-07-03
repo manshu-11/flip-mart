@@ -1,0 +1,128 @@
+.login-main {
+	position       : relative;
+	width          : 100%;
+	height         : calc(100vh - 70px);
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
+.login-main .login-box {
+	width           : 800px;
+	height          : 600px;
+	background-color: #fff;
+	display         : flex;
+}
+
+.login-main .login-box .left-side {
+	position        : relative;
+	width           : 300px;
+	background-color: #2874F0;
+	height          : inherit;
+	padding         : 50px;
+
+}
+
+.login-main .login-box .right-side {
+	position        : relative;
+	width           : 500px;
+	background-color: #fff;
+	height          : inherit;
+	display         : flex;
+	flex-direction  : column;
+	padding         : 50px;
+	gap             : 30px;
+}
+
+.login-main .login-box .right-side .error {
+	color    : rgb(240, 62, 62);
+	font-size: 14px;
+	position : relative;
+}
+
+
+.login-main .login-box .right-side input {
+	background-color: transparent;
+	border          : none;
+	border-bottom   : 1px solid #E5E5E5;
+	font-size       : 18px;
+	color           : #333;
+	width           : 100%;
+}
+
+.login-main .login-box .right-side button {
+	padding  : 8px 20px;
+	font-size: 20px;
+}
+
+.login-main .login-box .right-side .button-box button {
+	width           : 100%;
+	background-color: #FB641B;
+}
+
+.login-main .login-box .right-side .register {
+	color           : #0069b9;
+	font-size       : 18px;
+	background-color: transparent;
+}
+
+.login-main .login-box .right-side button.register:hover span {
+	color           : #333;
+	font-size       : 18px;
+	background-color: transparent;
+	text-decoration : underline;
+}
+
+
+.login-main .login-box .image-box {
+	position       : absolute;
+	width          : 100%;
+	bottom         : 50px;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	left           : 0;
+}
+
+.login-main .login-box .left-side .login-text-1 {
+	font-size  : 40px;
+	font-weight: bolder;
+	color      : #fff;
+	line-height: 40px;
+}
+
+.login-main .login-box .left-side .login-text-2 {
+	font-size  : 20px;
+	font-weight: bolder;
+	color      : #fff;
+	line-height: 24px;
+}
+
+.login-main .input-box {
+	margin-bottom: 30px;
+}
+
+.login-main .input-box p {
+	color    : rgb(240, 62, 62);
+	font-size: 14px;
+	position : absolute;
+}
+
+.login-main .login-box.logout .right-side .login-text-1 {
+	font-size  : 40px;
+	font-weight: bolder;
+	color      : #333;
+	line-height: 40px;
+}
+
+.login-main .login-box.logout .right-side .login-text-2 {
+	font-size  : 20px;
+	font-weight: bolder;
+	color      : #333;
+	line-height: 24px;
+}
+
+.login-main .login-box.logout .button-box {
+	display: flex;
+	gap    : 20px;
+}

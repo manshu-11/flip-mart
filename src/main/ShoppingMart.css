@@ -1,0 +1,21 @@
+.shopping-cart-holder {
+	position               : absolute;
+	left                   : 0;
+	top                    : 0;
+	width                  : 100%;
+	/* width               : 1920px;
+	height                 : 100vh
+	width                  : 100%;
+	height                 : auto;
+	transform-origin       : left top;
+	overflow               : hidden;*/
+}
+
+.cart-component {
+	position  : relative;
+	display   : block;
+	margin    : 0 auto;
+	max-width : 1200px;
+	height    : auto;
+	margin-top: 70px;
+}

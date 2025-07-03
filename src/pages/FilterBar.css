@@ -1,0 +1,119 @@
+.filter-box-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.filter-bar {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #047bd5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.search-button-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-bar .search-box {
+  display: flex;
+  gap: 5px;
+}
+
+.filter-bar .search-box span {
+  display: block;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  font-size: 20px;
+}
+
+.filter-bar input {
+  border: none;
+  background-color: aliceblue;
+  width: 500px;
+  border-radius: 48px;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.popup {
+  position: absolute;
+  width: 280px;
+  height: auto;
+  background-color: aliceblue;
+  top: 55px;
+  right: 0;
+  border: 1px solid #0069b9;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.popup button.icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #333;
+  margin-right: 5px;
+}
+
+.popup button .c-icon {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.popup button.icon span {
+  font-size: 20px;
+}
+
+.popup button {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.popup button:last-child {
+  margin-bottom: 0px;
+}
+
+.drop-list {
+  border: 1px solid #fff;
+  width: 480px;
+  height: 200px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 200ms ease-in;
+  left: 17px;
+  position: relative;
+  background-color: #f3f3f3;
+}
+
+.drop-list.hide {
+  opacity: 0;
+  display: none;
+  transition: all 200ms ease-in;
+}
+
+.drop-list.show {
+  opacity: 1;
+  display: block;
+  transition: all 200ms ease-in;
+}
+
+.drop-list button {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+}

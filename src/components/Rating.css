@@ -1,0 +1,30 @@
+.rating-box {
+	position: relative;
+	height  : 10px;
+}
+
+
+
+.rating-box .material-symbols-outlined.fill {
+	color      : #f8e831;
+	font-weight: bold;
+	font-variation-settings:
+		'FILL'1,
+		'wght'100,
+		'GRAD'-25,
+		'opsz'20
+}
+
+.rating-box .material-symbols-outlined {
+	color      : #f8e831;
+	font-weight: bold;
+	font-variation-settings:
+		'FILL'0,
+		'wght'100,
+		'GRAD'-25,
+		'opsz'20
+}
+
+.rating-box span+span {
+	margin-left: -9px;
+}

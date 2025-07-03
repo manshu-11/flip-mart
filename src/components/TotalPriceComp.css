@@ -1,0 +1,70 @@
+.cart-container .total-price-box {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+  max-width: 1200px;
+  background-color: #ededed;
+  color: #333;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.cart-container .total-price-box .text-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+  gap: 100px;
+}
+
+.cart-container .total-price-box .text-box.total-amount {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cart-container
+  .total-price-box
+  .text-box.total-amount
+  .changes-box
+  span:first-child {
+  font-size: 40px;
+}
+
+.cart-container .total-price-box .changes-box {
+  display: flex;
+  flex: 0 0 200px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cart-container .total-price-box .changes-box .c-icon {
+  padding-right: 3px;
+  font-size: 16px;
+}
+.cart-container
+  .total-price-box
+  .text-box.total-amount
+  .changes-box
+  span:first-child {
+  font-size: 30px;
+  padding-right: 5px;
+}
+/* .cart-container .total-price-box .changes-box .price {}
+
+
+.cart-container .total-price-box button {} */
+
+.cart-container .total-price-box button.text {
+  background-color: #ff9f00;
+  padding: 10px 30px;
+}
+
+.cart-container .total-price-box button.text span {
+  font-size: 26px;
+}
+
+.cart-container .total-price-box button.text:hover span {
+  color: #333;
+}

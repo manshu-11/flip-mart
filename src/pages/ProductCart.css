@@ -1,0 +1,36 @@
+.cart-container {
+	position: relative;
+	width   : 100%;
+}
+
+.cart-container .cart-item-container {
+	padding-bottom: 245px;
+}
+
+.cart-container .cart-item-container .cart-item-list {
+	position        : relative;
+	width           : 100%;
+	height          : auto;
+	background-color: #0069b9;
+	margin-bottom   : 5px;
+	display         : flex;
+	align-items     : center;
+	padding         : 5px;
+	color           : #fff;
+	gap             : 5px
+}
+
+.cart-container .empty-cart {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	padding        : 50px;
+	flex-direction : column;
+	gap            : 10px;
+}
+
+.cart-container .cont-shopping {
+	padding  : 10px 20px;
+	font-size: 20px;
+	color    : #fff
+}

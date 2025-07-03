@@ -1,0 +1,53 @@
+.product-comp {
+	position: relative;
+	width   : 100%;
+}
+
+.product-comp .filter-box {
+	position : fixed;
+	width    : 100%;
+	max-width: 1200px;
+	z-index  : 1;
+
+}
+
+.product-comp .product-list {
+	position       : relative;
+	display        : flex;
+	flex-wrap      : wrap;
+	justify-content: center;
+	margin-top     : 10px;
+	gap            : 5px;
+	overflow-y     : auto;
+	overflow-x     : hidden;
+	margin-bottom  : 10px;
+	padding-top    : 55px;
+}
+
+.product-comp .product-list .no-product {
+	width          : 100%;
+	height         : calc(100vh - 150px);
+	position       : relative;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	flex-direction : column;
+}
+
+.product-comp .product-list .no-product .message-txt {
+	font-size  : 40px;
+	font-weight: bold;
+	color      : darkgray;
+}
+
+.product-comp .product-list .no-product .img-box {
+	position: relative;
+	width   : 300px;
+	height  : auto;
+}
+
+.product-comp .product-list .no-product img {
+	display: block;
+	width  : 100%;
+	height : auto;
+}

@@ -1,0 +1,180 @@
+.order-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.order-heading {
+  background-color: #047bd5;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.order-heading h1 {
+  color: #fff;
+}
+
+.user-details .details {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.button-box {
+  padding-top: 10px;
+}
+
+.order-holder.address-details {
+  align-items: flex-start;
+}
+
+.address-details .details {
+  padding: 10px;
+}
+
+.address-details .address {
+}
+
+.address-details .address label {
+  display: flex;
+  align-items: flex-start;
+}
+
+.address-details .address label p:first-child {
+  font-weight: bold;
+}
+
+.order-holder.order-details .order-info {
+  padding: 20px;
+}
+
+.order-holder.order-details {
+  align-items: flex-start;
+}
+
+.order-holder.order-details .order-info {
+  padding: 20px;
+  width: 100%;
+}
+
+.order-holder.order-details .order-info table {
+  width: 100%;
+}
+
+.order-holder.order-details .order-info table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.order-holder.order-details .order-info .image {
+  padding: 10px;
+}
+
+.order-holder.order-details .order-info .image img {
+  display: block;
+  width: 100px;
+  height: auto;
+  aspect-ratio: 2/1;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.order-holder.order-details .order-info .title {
+  padding: 10px;
+}
+
+.order-holder.order-details .order-info td.title {
+  padding: 10px;
+  width: 50%;
+}
+
+.order-holder.order-details .order-info td.price {
+  padding: 10px;
+  text-align: right;
+}
+
+.order-holder.order-details .order-info td.price .c-icon {
+  font-size: 16px;
+  padding-right: 3px;
+}
+
+.order-holder.order-details .order-info td.price .icon {
+  top: 5px;
+  position: relative;
+}
+
+.order-holder.order-details .order-info td.qty {
+  text-align: center;
+}
+
+.order-holder.order-details .order-info td.total-price {
+  padding: 10px;
+  text-align: right;
+}
+
+.order-holder.order-details .order-info td.total-price .c-icon {
+  font-size: 16px;
+  padding-right: 3px;
+}
+
+.order-holder.order-details .order-info td.total-price .icon {
+  top: 5px;
+  position: relative;
+}
+
+.order-holder.order-details .order-info th.price {
+  padding: 10px;
+  text-align: right;
+}
+
+.order-holder.order-details .order-info th.qty {
+  text-align: center;
+}
+
+.order-holder.order-details .order-info th.total-price {
+  padding: 10px;
+  text-align: right;
+}
+
+.order-holder.order-details .order-info .product-total-amount {
+  padding: 10px;
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.order-holder.order-details .order-info .product-total-amount .c-icon {
+  /* top: 5px; */
+  position: relative;
+  font-size: 25px;
+  padding-right: 5px;
+}
+
+.order-holder.order-details .order-info .total-text {
+  padding: 10px;
+  text-align: right;
+}
+
+.order-holder.payment-details {
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.order-holder.payment-details label {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.order-holder.payment-details .image {
+  display: block;
+  width: 100px;
+  height: auto;
+  aspect-ratio: 2/1;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}

@@ -1,0 +1,48 @@
+.add-slider-holder {
+	position     : relative;
+	width        : 100%;
+	height       : 300px;
+	overflow     : hidden;
+	display      : flex;
+	margin-top   : 5px;
+	border-radius: 10px;
+}
+
+.indictor {
+	position       : absolute;
+	bottom         : 5px;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	gap            : 3px;
+	padding        : 2px 5px;
+	border-radius  : 30px;
+	left           : 0;
+	right          : 0;
+	margin         : auto;
+}
+
+.indictor .dot {
+	width           : 6px;
+	height          : 6px;
+	border-radius   : 50%;
+	background-color: azure;
+}
+
+.indictor .dot.current {
+	background-color: #0069b9;
+}
+
+.moveNext {
+	animation: moveNexAni 500ms ease-out;
+}
+
+@keyframes moveNexAni {
+	0% {
+		margin-left: 0px;
+	}
+
+	100% {
+		margin-left: -1200px;
+	}
+}
