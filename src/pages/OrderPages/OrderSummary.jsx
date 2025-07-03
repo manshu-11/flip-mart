@@ -80,6 +80,8 @@ const OrderSummary = () => {
                     <h1>Total Amount</h1>
                   </td>
                   <td className="product-total-amount">
+                    <Currency status={currencyStatus} />
+                    <span></span>
                     <CurrencyExchange
                       status={currencyStatus}
                       rate={totalAmount}
