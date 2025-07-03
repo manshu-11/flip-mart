@@ -1,1 +1,0 @@
-import{j as s}from"./index-BW9X0L0g.js";const a=({productObj:e})=>s.jsxs("div",{className:"prod-img-box",children:[s.jsx("div",{className:"img-box",children:s.jsx("img",{src:e.prod,alt:e.prodName})}),s.jsx("div",{className:"prod-name",children:s.jsx("p",{children:e.prodName})})]});export{a as default};
